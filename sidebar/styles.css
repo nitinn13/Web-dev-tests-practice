@@ -1,0 +1,71 @@
+/* Basic styling for Batwa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa; /* Light greyish white */
+  }
+  
+  /* Sidebar container */
+  .sidebar-container {
+    position: relative;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hidden initially */
+    width: 250px;
+    height: 100%;
+    background: #ffffff; /* Pure white */
+    color: #333333; /* Dark grey text */
+    transition: 0.3s;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0; /* Light grey divider */
+  }
+  
+  .sidebar ul li a {
+    color: #333333; /* Dark grey */
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background: #f1f1f1; /* Subtle hover effect */
+    color: #000000; /* Pure black */
+  }
+  
+  /* Menu button styles */
+  .menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: #ffffff; /* White button */
+    color: #333333; /* Dark grey icon */
+    border: 1px solid #e0e0e0; /* Subtle border */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .menu-btn .icon {
+    font-size: 20px;
+  }
+  
+  .menu-btn:hover {
+    background: #f1f1f1; /* Light grey hover */
+  }
+  

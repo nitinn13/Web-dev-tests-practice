@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border: #fff solid 1px;
+}
+.circle{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: blue;
+  border: #fff solid 1px;
+}
