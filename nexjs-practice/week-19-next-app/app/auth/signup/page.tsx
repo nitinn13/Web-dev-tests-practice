@@ -2,7 +2,7 @@
 "use client"
 import axios from "axios"
 import { useState } from "react";
-export default function Signin() {
+export default function Signup() {
     const [username , setUsername ] = useState("");
     const [password, setPassword] = useState("")
     return (
@@ -15,8 +15,13 @@ export default function Signin() {
                     setPassword(e.target.value);
                 }} />
                 <button onClick={() => {
-                    axios.get("http://localhost:3000/api/v1/signup")
-                }}>sign in</button>
+                    axios.post("http://localhost:3000/api/v1/auth/signup",
+                        {
+                            username,
+                            password 
+                        }
+                    )
+                }}>sign up</button>
             </div>
         </div>
     )
