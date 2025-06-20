@@ -10,6 +10,7 @@ export default function Page() {
       <div className="flex justify-between items-center border border-white p-2 px-4 rounded-lg">
         <h1>
           Welcome to the home page
+           this is test app for Nexy-auth.js
         </h1>
         {session.data?.user && (
           <p>
