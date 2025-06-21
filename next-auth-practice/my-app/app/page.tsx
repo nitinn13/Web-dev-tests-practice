@@ -6,7 +6,8 @@ export default function Page() {
   const session = useSession();
 
   return (
-    <div className="h-screen m-4">
+    
+    <div className="h-screen m-4 p-2 bg-color-red">
       <div className="flex justify-between items-center border border-white p-2 px-4 rounded-lg">
         <h1>
           Welcome to the home page
