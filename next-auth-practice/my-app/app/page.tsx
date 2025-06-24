@@ -12,6 +12,7 @@ export default function Page() {
         <h1>
           Welcome to the home page
            this is test app for Nexy-auth.js
+           bdfhsvfcv wwb fchedwv cfehqwv ecf qdwycfv ewdqf dwasxev
         </h1>
         {session.data?.user && (
           <p>
