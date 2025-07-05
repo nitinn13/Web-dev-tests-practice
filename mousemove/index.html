@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <canvas id="myCanvas" width="500" height="500" style="border:1px solid black;"></canvas>
+
+    <script>
+      const canvas = document.getElementById("myCanvas");
+
+      canvas.addEventListener("mousemove", (e) => {
+        console.log("Mouse move:", e.clientX, e.clientY);
+      });
+
+      canvas.addEventListener("mousedown", (e) => {
+        console.log("Mouse down:", e.clientX, e.clientY);
+      });
+
+      canvas.addEventListener("mouseup", (e) => {
+        console.log("Mouse up:", e.clientX, e.clientY);
+      });
+
+      canvas.addEventListener("pointermove", (e) => {
+        console.log("Pointer move:", e.clientX, e.clientY);
+      });
+    </script>
+  </body>
+</html>
